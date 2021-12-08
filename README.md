@@ -16,7 +16,7 @@ huge data generated today and the easier collection & storage make neural networ
 Neural Networks is a network or circuit of neurons. Perceptron is single neuron and the structural building block of deep learning. Is it very important to understand how a neuron works to make predictions/judgment.  
 <img width="509" alt="Screenshot 2021-12-08 213421" src="https://user-images.githubusercontent.com/85021780/145265199-8f0e9ca3-db34-4af5-a61f-88409cdf8001.png">
   
-To get the output (prediction) We Multiply each iput data (x1, x2 ...... xm) with it's Corresponding Weight (w1, w2 ....... wm) and then add all together including (bias x it's weight). We Again take the result of the single added sum and Pass through non - linear activation Fuction.   
+Above: To get the output (prediction) We Multiply each input data (x1, x2 ...... xm) with it's Corresponding Weight (w1, w2 ....... wm) and then add all together including (bias x it's weight). We Again take the result of the single added sum and Pass through non - linear activation Function.   
         
     Y = g(bias.w0 + (x1.w1 + x2.w2 ..... + xm.wm)
     
@@ -26,13 +26,13 @@ To get the output (prediction) We Multiply each iput data (x1, x2 ...... xm) wit
     x = inputs  
 
 **Inputs** - are the data points fed through the network to learn and make the prediction.  
-**weights** - is the parameter within a neural network that transforms input data within the network's hidden layers and decides how much influence the input will have on the output.  
+**weights** - is the parameter within a neural network that transforms input data within the network and decides how much influence the input will have on the output.  
 **Bias** - this allows you to shift your activation function  from left or right.   
 **Activation Function** - decides whether a neuron should be activated or not. This means that it will decide whether the neuron's input to the network is important or not in the process of prediction using simpler mathematical operations.  
 <img width="509" alt="Screenshot 2021-12-08 215343" src="https://user-images.githubusercontent.com/85021780/145267011-67c0d1e7-b61f-4f27-a887-48e5b1e8ec24.png">  
-In the left-diagram imagine you're working on binary classification problem  to separate the two classes (red & green) and used linear activation fuction to make the decision boundary, no matter how deep the neural network is you'll not get a good prediction unless you pass through Non-linear activation fuction to make a decision boundary that's much accurate. there many activation function you can choose from i.e Sigmoid , hyp erbolic tangent, ReLU and Softmax.  
+In the left-diagram imagine you're working on binary classification problem, To separate the two classes (red & green) using linear activation function to make the decision boundary no matter how deep the neural network is you'll not get a good prediction unless (apply the right-diagram) by pass through Non-linear activation fuction to make a decision boundary that's much accurate. there many activation function you can choose from i.e Sigmoid , hyperbolic tangent, ReLU and Softmax.  
   
-Now let us understand forward propagation with the help of an example.  
+Now let us understand forward propagation with the help of an example (TO predict if a client will buy a product )
   
 
     
