@@ -32,7 +32,7 @@ Above: To get the output (prediction) We Multiply each input data (x1, x2 ......
 <img width="509" alt="Screenshot 2021-12-08 215343" src="https://user-images.githubusercontent.com/85021780/145267011-67c0d1e7-b61f-4f27-a887-48e5b1e8ec24.png">  
 In the left-diagram imagine you're working on binary classification problem, To separate the two classes (red & green) using linear activation function to make the decision boundary no matter how deep the neural network is you'll not get a good prediction unless (apply the right-diagram) by pass through Non-linear activation fuction to make a decision boundary that's much accurate. there many activation function you can choose from i.e Sigmoid , hyperbolic tangent, ReLU and Softmax.  
   
-Now let us understand forward propagation with the help of an example (TO predict if a client will buy a product )
+## Now let us understand forward propagation with the help of an example (TO predict if a client will buy a product )
   
 
     
