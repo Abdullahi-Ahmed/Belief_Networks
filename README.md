@@ -56,16 +56,16 @@ There 46% chance of the client to buy the product when we used only one neuron f
     g = Activation Fuction
     z=  linear combination  
 <img width="509" alt="Screenshot 2021-12-08 235958" src="https://user-images.githubusercontent.com/85021780/145283649-658f1761-c351-48d7-990b-5e6f83494356.png">  
-we compute the same formula in each neuron. here we take W1 as weights Corresponding to each input in the first layer and W2 as weights Corresponding to each input in the second layer.  
+Above: We compute the same formula in each neuron. here we take W1 as weights Corresponding to each input in the first layer and W2 as weights Corresponding to each input in the second layer.  
 Lets take a look at one zoomed neuron (Z2)  
 <img width="508" alt="Screenshot 2021-12-09 000458" src="https://user-images.githubusercontent.com/85021780/145284211-2801157b-b05e-4680-bd56-ebaf7e593d07.png">  
-Here we're just computing neuron (Z2) from the network
+Above: Here we're just computing neuron (Z2) from the network
      
      Z2 = (X1 * W1,2 + X2 * W2,2 + Xm * Wm,2)
      g(Z2)
 We compute all the above throughout the network to predict Y.  
 <img width="509" alt="Screenshot 2021-12-09 001908" src="https://user-images.githubusercontent.com/85021780/145286057-d9076756-f195-416a-9ac1-7ee27cbe71cf.png">  
-To create create a deep neural network all we have to do is keep stacking these layers to create more and more hierarchical models to compute the final output by going deeper and deeper into the network while applying activation fuction in each linear combination of inputs in every possible combination of each layer in the network.  
+Above: To create create a deep neural network all we have to do is keep stacking these layers to create more and more hierarchical models to compute the final output by going deeper and deeper into the network while applying activation fuction in each linear combination of inputs in every possible combination of each layer in the network.  
 ## Further Readings
 https://www.youtube.com/watch?v=5tvmMX8r_OM&t=1575s  
 https://www.inf.ed.ac.uk/teaching/courses/nlu/assets/reading/Gurney_et_al.pdf  
